@@ -29,5 +29,3 @@ elem.addEventListener('click', function (cell) {
   chip.id = 'chip'
   cell.appendChild(div)
 })
-
-
