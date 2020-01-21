@@ -23,9 +23,6 @@ button.addEventListener('click', function (el, rows, cols) {
 })
 
 elem.addEventListener('click', function (cell) {
-  var cell = document.getElementsByTagName('td') 
-  var chip = document.createElement('div')
-  chip.className = 'chip'
-  chip.id = 'chip'
-  cell.appendChild(div)
+  let elm = cell.target;
+  elm.setAttribute("style", "color:red; border: 1px solid blue;");
 })
